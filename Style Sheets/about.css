@@ -1,0 +1,35 @@
+#about{
+    max-height: 30%;
+}
+
+#my-image{
+    height: 15em;
+    width: 15em;
+    margin: auto;
+    margin-top: -7em;
+    position: relative;
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: solid 5px whitesmoke;
+    box-shadow: 0px 0px 10px 6px white;
+    
+    
+}
+
+.about-data{
+    align-items: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 1.5em;
+    box-shadow: azure;
+    
+}
+
+

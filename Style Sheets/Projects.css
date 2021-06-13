@@ -1,0 +1,74 @@
+#portfolio{
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio .section-heading{
+    align-self: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.projects{
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: center;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-box{
+    height: 200px;
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    border: 4px solid #0A2335;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 1em;
+}
+
+.CPP_Pro{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/himanshuresume-4f83e.appspot.com/o/Resume%20Stat%20Pics%2FBanking%20Application%20Cpp.png?alt=media&token=3a715dc5-f0e2-4aa1-8e75-73be470b388b");
+    background-size: contain;
+}
+
+.resume_Pro{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/himanshuresume-4f83e.appspot.com/o/Resume%20Stat%20Pics%2FResume%20Project%20HTML5%20%26%20CSS3.png?alt=media&token=c82bd111-36d9-4fa3-adfe-3d35122edac5");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.project-details{
+    transition: all 0.5s ease-in-out;
+    font-size: larger;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.project-box:hover{
+ 
+    box-shadow:  0 0 20px #74ADC8;
+    
+}
+
+.project-box:hover .project-details{
+    background-color: lightsteelblue;
+    opacity: 0.8;
+    color: black;
+    font-weight: bold;
+    height: 65%;
+    padding-top: 30%;
+    margin-top: 0;
+}
+.projects a:link{
+    color: black;
+    text-decoration: none;
+
+}

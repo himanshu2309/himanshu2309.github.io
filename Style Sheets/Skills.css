@@ -1,0 +1,101 @@
+/*Generic Class for all section headings*/
+.section-heading{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.section-heading h1{
+    color: #041c2c;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgb(226, 180, 180);
+}
+
+/*Skill Bars*/
+.skills-display{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 2em;
+   
+}
+.skill-progress{
+    height: auto;
+    width: 10rem;
+    background-color: lightgrey;
+    border-radius: 0.8rem;
+    border: 2px solid rgb(10, 35, 53);
+    margin-left: 1em;
+    box-shadow: 0px 0px 6px 3px rgb(10, 35, 53);
+    margin-top: 2em;
+    
+}
+.skill-stat-htm{
+    border-radius: 0.8rem;
+    width: 80%;
+    height: inherit;
+    background-color: rgb(133, 28, 14);
+}
+.skill-stat-css{
+    border-radius: 0.8rem;
+    width: 75%;
+    height: inherit;
+    background-color: rgb(151, 142, 19);
+}
+
+.skill-stat-cpp{
+    border-radius: 0.8rem;
+    width: 70%;
+    height: inherit;
+    background-color: rgb(16, 161, 100);
+}
+.skill-stat-java{
+    border-radius: 0.8rem;
+    width: 65%;
+    height: inherit;
+    background-color: rgb(16, 126, 129);
+}
+.skill-stat-soft{
+    border-radius: 0.8rem;
+    width: 90%;
+    height: inherit;
+    background-color: rgb(70, 36, 114);
+}
+.skill-stat-Canva{
+    border-radius: 0.8rem;
+    width: 80%;
+    height: inherit;
+    background-color: #F7941D;
+}
+.skill-stat-film{
+    border-radius: 0.8rem;
+    width: 80%;
+    height: inherit;
+    background-color: #0a7c30;
+}
+.skill-stat-DS{
+    border-radius: 0.8rem;
+    width: 65%;
+    height: inherit;
+    background-color: rgb(38, 37, 104);
+    overflow:hidden;
+}
+
+
+.skill-name span{
+    margin-left: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+}

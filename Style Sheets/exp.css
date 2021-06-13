@@ -1,0 +1,136 @@
+.timeline {
+    position: relative;
+    width: 85%;
+    margin: auto;
+}
+
+.timeline-box {
+    padding: 5px;
+    width: 41%;
+    min-height: 150px;
+    position: relative;
+    left: 5%;
+    text-align: right;
+}
+
+.timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #0A2335;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    right: -9.3%;
+}
+
+.timeline-box:nth-child(2n)::after {
+    left: -9%;
+}
+
+.timeline-container {
+    padding: 8px;
+    
+
+    
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 60px;
+    overflow: hidden;
+}
+
+.timeline-logo > img {
+    width: 100%;
+}
+
+#timeline-divider {
+    position: absolute;
+    width: 0;
+    top: 1%;
+    left: 50%;
+    border: 1px dashed #0A2335;
+    height: 90%;
+    color: #0A2335;
+}
+
+#timeline-divider .timeline-traveller {
+    position:sticky;
+    top: 135px;
+    left: inherit;
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.timeline-traveller {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#timeline-divider img {
+   
+    margin-top: -35px;
+    margin-left: -0.55em;
+
+    display: block;
+    color: #2857a4;
+}
+
+.experience-designation {
+    font-size: 1.15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: inherit;
+    word-wrap: break-word;
+   
+}
+
+.experience-company-name {
+    
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience-duration {
+    color: inherit;
+    font-weight: 100;
+    color: inherit;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience-description {
+    font-size: 14px;
+    padding: 2px;
+    color: inherit;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.timeline-box a:link{
+    color: #eb822d
+}
+.timeline-box a:visited{
+    color: #eb822d
+}
+
+
