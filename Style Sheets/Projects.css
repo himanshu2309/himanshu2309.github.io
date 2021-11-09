@@ -31,7 +31,11 @@
     flex-shrink: 1;
     margin: 1em;
 }
-
+.portfolio_Pro{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/himanshuresume-4f83e.appspot.com/o/Resume%20Project%2FDocuments%20Req%2FPortfolio.png?alt=media&token=1df0ddf0-b3b6-4a52-91ef-b5293578e563");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .CPP_Pro{
     background-image: url("https://firebasestorage.googleapis.com/v0/b/himanshuresume-4f83e.appspot.com/o/Resume%20Stat%20Pics%2FBanking%20Application%20Cpp.png?alt=media&token=3a715dc5-f0e2-4aa1-8e75-73be470b388b");
     background-size: contain;
